@@ -1,0 +1,327 @@
+body
+{
+    padding: 0;
+    margin: 0;    
+}
+body
+{
+
+    background-color: darkorange;
+}
+.header1
+{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgb(0,0,0,0.6)), url(amitabh_gujarat_tourism.jpg);
+    height: 41vh;
+    background-size: cover;
+    background-position: center;
+}
+.heading
+{
+    max-width: 1500px;
+    margin: auto;
+}
+.title
+{
+    position: absolute;
+    margin-top: 100;
+    margin-left: 280;
+    width: 1500px;
+    font-size: 40px;
+    color: orange;
+    
+}
+.logo img
+{
+    margin-top: 10px;
+    height: auto;
+    width: 280px;
+    float: left;
+}
+.main-nav
+{
+    float: right;
+    margin-top: 10px;
+    list-style: none;
+
+}
+.main-nav li
+{
+    display: inline-block;
+    margin-top: 230px ;
+}
+.main-nav li a
+{
+    padding: 5px 20px;
+    color: orange;
+    text-decoration: none;
+    font-size: 20px;
+}
+.active 
+{
+    border: 1px solid orange;
+    background-color: rgb(66, 65, 65);
+}
+.main-nav li a:hover
+{    
+    border: 1px solid orange;
+    background-color: rgb(66, 65, 65);
+}
+.navigation
+{
+    height: 35px;
+    font-size: 20px;
+    color: white;
+    background-color: black;
+    padding: 3px;
+    margin-left: 0px;
+}
+.nav1 a
+{
+    text-decoration: none;
+    color: white;
+    border: 0.5px solid white;
+}
+.header2
+{
+    background-image: linear-gradient(rgba(0,0,0,0.9),rgb(0,0,0,0.8)), url(main.jpg);
+    height: 150vh;
+    background-size: cover;
+    background-position: center;
+}
+.sorting
+{
+    background-color: rgba(255, 140, 0, 0.377);
+    width: 20%;
+    height: 150vh;
+}
+table
+{
+    margin-left: 2%;
+    border-spacing: 10px;
+    
+}
+.main-nav2 td
+{
+    padding: 10px 105px;
+    border-spacing: 10px;
+    border: 1px solid white;
+    border-collapse: collapse;
+    margin-top: 5px;
+}
+.hov td:hover
+{
+    background-color: rgba(255, 140, 0, 0.774);
+    text-decoration: none;
+}
+td 
+{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin-top: 5px;
+}
+tr
+{
+    margin-top: 5px;
+}
+td a
+{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.active1
+{
+    background-color: rgba(255, 140, 0, 0.774);
+    text-decoration: bold;
+}
+.cities1
+{
+    border: 1px solid white;
+    padding: 10px 80px;
+    text-align: left;
+}
+table.cities2 th
+{
+    text-align: left;
+    border: 1px solid black;
+    padding: 3px 50px;
+}
+ul.city
+{
+    list-style: none;
+    font-size: 25px;
+    color: white; 
+    list-style: square;
+    margin-left: 0px; 
+}
+.city li ul.city-name
+{
+    margin-left: 100px;
+    list-style: none;
+    margin-left: 50px;
+}
+
+.city li ul.city-name li:nth-child(even):hover
+{
+    background-color: darkblue;
+    border: 1px solid black;
+}
+.city li ul.city-name li:nth-child(odd):hover
+{
+    background-color: pink;
+    
+}
+.city li ul.city-name li a
+{
+    text-decoration: none;
+    color: white;
+}
+.slider
+{
+    height: 350px; width: 600px;
+    margin-top: -150vh;
+    position: absolute;
+    margin-left: 40%;
+}
+.welcome
+{
+    color: darkorange;
+    margin-left: -280px;
+}
+.notice
+{
+    color: red;
+}
+.colorchange
+{
+    animation: colorchange 5s infinite;
+}
+@keyframes colorchange
+{
+    100%{ color: darkblue}
+    20%{color: red}
+    40%{color: darkgreen}
+    60%{color: black}
+    80%{color: darkorange}
+}
+.desc
+{
+    color: yellowgreen
+}
+.description
+{
+    margin-left: -250px;
+    width: 180%;
+    text-align: justify;
+    font-size: 18px;
+}
+.btn
+{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 10px;
+}
+.btn:hover
+{
+    background: orange;
+}
+.con
+{
+    position: absolute;
+    margin-top: -1080px;
+    margin-left: 350px;
+    color: white;
+}
+.slider1
+{
+    
+}
+.main1
+{
+    margin-top: 30px;
+    text-align: left;
+}
+.main2
+{
+    margin-top: 50px;
+    text-align: left;
+}
+.main3
+{
+    margin-top: 200px;
+
+}
+.main4
+{
+    margin-top: 225px;
+
+}
+.main5
+{
+    margin-top: 150px;
+
+}
+.main6
+{
+    margin-top: 550px;
+}
+.noti
+{
+  color: white;;
+  margin-left: 350px;
+  margin-top: -1000px;
+  padding: 10px;
+}
+.noti-table tr td
+{
+    width: 900px;
+    border: 1px solid white;
+    border-radius: 15px;
+    padding: 30px;
+    margin-top: 20px;
+    text-align: center;
+
+
+}
+.row
+{
+    border-radius: 1rem;
+    text-align: center;
+    padding: 10px;
+    
+}
+.row:hover
+{
+    background: linear-gradient(rgba(255,255,255,0.4),rgba(255,255,255,0.4));
+    color: black;
+    text-decoration: underline;
+}
+.more
+{
+    margin-left: 350px;
+    margin-top: -1000px;
+}
+.film
+{
+    width: 900px;
+    text-align: center;
+    border: 1px solid white;
+    border-collapse: collapse;
+}
+.film tr 
+{
+    border: 1px dashed white;
+}
+.film tr td
+{
+    border: 1px dashed white;
+    padding: 10px;
+    
+}
+.film tr td:hover
+{
+    border: 1px solid white;
+    background: linear-gradient(rgba(255,255,255,0.4),rgba(255,255,255,0.4));
+
+}
